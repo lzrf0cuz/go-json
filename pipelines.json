@@ -1,0 +1,24 @@
+{
+    "pipelines": [
+        {
+            "repositoryName": "repository-a",
+            "environment": "env-a",
+            "stack": "stack-a",
+            "pipelineName": "pipeline-a",
+            "parameterized": true,
+            "pipelineParameters": "{\"a\":\"A\"}",
+            "queueTimeout": 60,
+            "buildTimeout": 60
+        },
+        {
+            "repositoryName": "repository-b",
+            "environment": "env-b",
+            "stack": "stack-b",
+            "pipelineName": "pipeline-b",
+            "parameterized": true,
+            "pipelineParameters": "{\"b\":\"B\"}",
+            "queueTimeout": 60,
+            "buildTimeout": 60
+        }
+    ]
+}
