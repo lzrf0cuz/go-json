@@ -25,7 +25,7 @@ type Pipeline struct {
 	BuildTimeout       int64  `json:"buildTimeout"`
 }
 
-
+// main is the entry point
 func main() {
 	pipelineFile := "pipelines.json"
 	pipelineTemplateFile := "pipeline_template.yml"
